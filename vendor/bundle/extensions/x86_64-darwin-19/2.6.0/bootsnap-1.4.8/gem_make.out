@@ -1,0 +1,15 @@
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/gems/bootsnap-1.4.8/ext/bootsnap
+/Users/koji_koji/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/koji_koji/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20201015-39085-18rght7.rb extconf.rb
+creating Makefile
+
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20201015-39085-1s4o68c/bootsnap
