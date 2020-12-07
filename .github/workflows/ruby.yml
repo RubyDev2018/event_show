@@ -32,3 +32,5 @@ jobs:
         bin/yarn install
         bin/rails test
         bin/rails test:system
+
+        
