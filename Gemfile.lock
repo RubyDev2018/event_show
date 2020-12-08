@@ -85,7 +85,7 @@ GEM
     elasticsearch-transport (7.9.0)
       faraday (~> 1)
       multi_json
-    erubi (1.9.0)
+    erubi (1.10.0)
     erubis (2.7.0)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
@@ -130,7 +130,7 @@ GEM
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.7.0)
+    loofah (2.8.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -257,11 +257,11 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.7)
+    tzinfo (1.2.8)
       thread_safe (~> 0.1)
     tzinfo-data (1.2020.2)
       tzinfo (>= 1.0.0)
-    web-console (4.0.4)
+    web-console (4.1.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
@@ -279,7 +279,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.4.0)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
