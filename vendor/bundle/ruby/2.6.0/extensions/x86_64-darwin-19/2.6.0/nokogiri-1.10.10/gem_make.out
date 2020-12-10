@@ -1,5 +1,5 @@
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri
-/Users/koji_koji/.rbenv/versions/2.6.3/bin/ruby -r ./siteconf20201202-2803-d3zpta.rb extconf.rb --use-system-libraries --with-xml2-include=/usr/local/Cellar/libxml2/2.9.10/include/libxml2
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri
+/Users/koji_koji/.rbenv/versions/2.6.6/bin/ruby -I /Users/koji_koji/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20201210-78102-svx6fm.rb extconf.rb --use-system-libraries --with-xml2-include\=/usr/local/Cellar/libxml2/2.9.10/include/libxml2
 checking if the C compiler accepts  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2... yes
 checking if the C compiler accepts -Wno-error=unused-command-line-argument-hard-error-in-future... no
 Building nokogiri using system libraries.
@@ -28,14 +28,10 @@ checking for xmlSchemaSetValidStructuredErrors()... yes
 checking for xmlSchemaSetParserStructuredErrors()... yes
 creating Makefile
 
-To see why this extension failed to compile, please check the mkmf.log which can be found here:
-
-  /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/extensions/x86_64-darwin-19/2.6.0/nokogiri-1.10.10/mkmf.log
-
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri
 make "DESTDIR=" clean
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri
 make "DESTDIR="
 compiling html_document.c
 compiling html_element_description.c
@@ -49,16 +45,16 @@ compiling xml_cdata.c
 xml_cdata.c:29:23: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
     content_str_len = RSTRING_LEN(content);
                     ~ ^~~~~~~~~~~~~~~~~~~~
-/Users/koji_koji/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/ruby.h:1000:6: note: expanded from macro 'RSTRING_LEN'
+/Users/koji_koji/.rbenv/versions/2.6.6/include/ruby-2.6.0/ruby/ruby.h:1000:6: note: expanded from macro 'RSTRING_LEN'
      RSTRING_EMBED_LEN(str) : \
      ^~~~~~~~~~~~~~~~~~~~~~
-/Users/koji_koji/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/ruby.h:996:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+/Users/koji_koji/.rbenv/versions/2.6.6/include/ruby-2.6.0/ruby/ruby.h:996:6: note: expanded from macro 'RSTRING_EMBED_LEN'
      (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 xml_cdata.c:29:23: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
     content_str_len = RSTRING_LEN(content);
                     ~ ^~~~~~~~~~~~~~~~~~~~
-/Users/koji_koji/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/ruby.h:1001:28: note: expanded from macro 'RSTRING_LEN'
+/Users/koji_koji/.rbenv/versions/2.6.6/include/ruby-2.6.0/ruby/ruby.h:1001:28: note: expanded from macro 'RSTRING_LEN'
      RSTRING(str)->as.heap.len)
      ~~~~~~~~~~~~~~~~~~~~~~^~~
 2 warnings generated.
@@ -122,8 +118,8 @@ static void swallow_superfluous_xml_errors(void * userdata, xmlErrorPtr error, .
 1 warning generated.
 linking shared-object nokogiri/nokogiri.bundle
 Cleaning files only used during build.
-rm -rf /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/archives
+rm -rf /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/archives
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri
 make "DESTDIR=" install
-/usr/local/bin/ginstall -c -m 0755 nokogiri.bundle ./.gem.20201202-2803-1rq2njm/nokogiri
+/usr/local/bin/ginstall -c -m 0755 nokogiri.bundle ./.gem.20201210-78102-1lcx53e/nokogiri

@@ -23,6 +23,7 @@ class EventsController < ApplicationController
   end
 
   def update
+    binding.pry
     @event = current_user.created_events.find_by(id: params[:id])
     if @event.update(event_params)
       redirect_to @event, notice: "更新しました。"

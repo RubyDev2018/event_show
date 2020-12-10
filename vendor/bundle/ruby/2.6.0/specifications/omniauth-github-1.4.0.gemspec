@@ -13,32 +13,25 @@ Gem::Specification.new do |s|
   s.email = ["michael@intridea.com".freeze]
   s.homepage = "https://github.com/intridea/omniauth-github".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "2.6.3".freeze
+  s.rubygems_version = "3.1.4".freeze
   s.summary = "Official OmniAuth strategy for GitHub.".freeze
 
-  s.installed_by_version = "2.6.3" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.1.4" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
+  end
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<omniauth>.freeze, ["~> 1.5"])
-      s.add_runtime_dependency(%q<omniauth-oauth2>.freeze, ["< 2.0", ">= 1.4.0"])
-      s.add_development_dependency(%q<rspec>.freeze, ["~> 3.5"])
-      s.add_development_dependency(%q<rack-test>.freeze, [">= 0"])
-      s.add_development_dependency(%q<simplecov>.freeze, [">= 0"])
-      s.add_development_dependency(%q<webmock>.freeze, [">= 0"])
-    else
-      s.add_dependency(%q<omniauth>.freeze, ["~> 1.5"])
-      s.add_dependency(%q<omniauth-oauth2>.freeze, ["< 2.0", ">= 1.4.0"])
-      s.add_dependency(%q<rspec>.freeze, ["~> 3.5"])
-      s.add_dependency(%q<rack-test>.freeze, [">= 0"])
-      s.add_dependency(%q<simplecov>.freeze, [">= 0"])
-      s.add_dependency(%q<webmock>.freeze, [">= 0"])
-    end
+  if s.respond_to? :add_runtime_dependency then
+    s.add_runtime_dependency(%q<omniauth>.freeze, ["~> 1.5"])
+    s.add_runtime_dependency(%q<omniauth-oauth2>.freeze, [">= 1.4.0", "< 2.0"])
+    s.add_development_dependency(%q<rspec>.freeze, ["~> 3.5"])
+    s.add_development_dependency(%q<rack-test>.freeze, [">= 0"])
+    s.add_development_dependency(%q<simplecov>.freeze, [">= 0"])
+    s.add_development_dependency(%q<webmock>.freeze, [">= 0"])
   else
     s.add_dependency(%q<omniauth>.freeze, ["~> 1.5"])
-    s.add_dependency(%q<omniauth-oauth2>.freeze, ["< 2.0", ">= 1.4.0"])
+    s.add_dependency(%q<omniauth-oauth2>.freeze, [">= 1.4.0", "< 2.0"])
     s.add_dependency(%q<rspec>.freeze, ["~> 3.5"])
     s.add_dependency(%q<rack-test>.freeze, [">= 0"])
     s.add_dependency(%q<simplecov>.freeze, [">= 0"])

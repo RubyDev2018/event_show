@@ -1,5 +1,5 @@
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.4/ext/nio4r
-/Users/koji_koji/.rbenv/versions/2.6.3/bin/ruby -r ./siteconf20201202-2803-57hhsa.rb extconf.rb
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.4/ext/nio4r
+/Users/koji_koji/.rbenv/versions/2.6.6/bin/ruby -I /Users/koji_koji/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20201210-78102-10025g2.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
 checking for sys/select.h... yes
@@ -11,14 +11,10 @@ checking for port_event_t in port.h... no
 checking for sys/resource.h... yes
 creating Makefile
 
-To see why this extension failed to compile, please check the mkmf.log which can be found here:
-
-  /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/extensions/x86_64-darwin-19/2.6.0/nio4r-2.5.4/mkmf.log
-
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.4/ext/nio4r
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.4/ext/nio4r
 make "DESTDIR=" clean
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.4/ext/nio4r
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.4/ext/nio4r
 make "DESTDIR="
 compiling bytebuffer.c
 compiling monitor.c
@@ -94,6 +90,6 @@ In file included from nio4r_ext.c:6:
 compiling selector.c
 linking shared-object nio4r_ext.bundle
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.4/ext/nio4r
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.4/ext/nio4r
 make "DESTDIR=" install
-/usr/local/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20201202-2803-1tdxq5q
+/usr/local/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20201210-78102-h4e50k

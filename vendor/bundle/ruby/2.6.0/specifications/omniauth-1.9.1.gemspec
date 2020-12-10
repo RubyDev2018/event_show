@@ -14,28 +14,23 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/omniauth/omniauth".freeze
   s.licenses = ["MIT".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.2".freeze)
-  s.rubygems_version = "2.6.3".freeze
+  s.rubygems_version = "3.1.4".freeze
   s.summary = "A generalized Rack framework for multiple-provider authentication.".freeze
 
-  s.installed_by_version = "2.6.3" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.1.4" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
+  end
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<hashie>.freeze, [">= 3.4.6"])
-      s.add_runtime_dependency(%q<rack>.freeze, ["< 3", ">= 1.6.2"])
-      s.add_development_dependency(%q<bundler>.freeze, ["~> 1.14"])
-      s.add_development_dependency(%q<rake>.freeze, ["~> 12.0"])
-    else
-      s.add_dependency(%q<hashie>.freeze, [">= 3.4.6"])
-      s.add_dependency(%q<rack>.freeze, ["< 3", ">= 1.6.2"])
-      s.add_dependency(%q<bundler>.freeze, ["~> 1.14"])
-      s.add_dependency(%q<rake>.freeze, ["~> 12.0"])
-    end
+  if s.respond_to? :add_runtime_dependency then
+    s.add_runtime_dependency(%q<hashie>.freeze, [">= 3.4.6"])
+    s.add_runtime_dependency(%q<rack>.freeze, [">= 1.6.2", "< 3"])
+    s.add_development_dependency(%q<bundler>.freeze, ["~> 1.14"])
+    s.add_development_dependency(%q<rake>.freeze, ["~> 12.0"])
   else
     s.add_dependency(%q<hashie>.freeze, [">= 3.4.6"])
-    s.add_dependency(%q<rack>.freeze, ["< 3", ">= 1.6.2"])
+    s.add_dependency(%q<rack>.freeze, [">= 1.6.2", "< 3"])
     s.add_dependency(%q<bundler>.freeze, ["~> 1.14"])
     s.add_dependency(%q<rake>.freeze, ["~> 12.0"])
   end

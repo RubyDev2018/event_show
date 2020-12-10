@@ -1,11 +1,11 @@
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-/Users/koji_koji/.rbenv/versions/2.6.3/bin/ruby -r ./siteconf20201202-2803-1lnwfbq.rb extconf.rb
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
+/Users/koji_koji/.rbenv/versions/2.6.6/bin/ruby -I /Users/koji_koji/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20201210-78102-1ylw56p.rb extconf.rb
 creating Makefile
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" clean
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR="
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
@@ -75,6 +75,6 @@ compiling ./libsass/src/util_string.cpp
 compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.bundle
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/local/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20201202-2803-2ghl8y/sassc
+/usr/local/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20201210-78102-1x7x6bn/sassc

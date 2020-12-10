@@ -1,15 +1,15 @@
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
-/Users/koji_koji/.rbenv/versions/2.6.3/bin/ruby -r ./siteconf20201202-8017-vmrnu2.rb extconf.rb
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
+/Users/koji_koji/.rbenv/versions/2.6.6/bin/ruby -I /Users/koji_koji/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20201210-78102-sozi9w.rb extconf.rb
 creating Makefile
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
 make "DESTDIR=" clean
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
 make "DESTDIR="
 compiling bootsnap.c
 linking shared-object bootsnap/bootsnap.bundle
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.5.1/ext/bootsnap
 make "DESTDIR=" install
-/usr/local/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20201202-8017-195hq1v/bootsnap
+/usr/local/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20201210-78102-9k6dav/bootsnap

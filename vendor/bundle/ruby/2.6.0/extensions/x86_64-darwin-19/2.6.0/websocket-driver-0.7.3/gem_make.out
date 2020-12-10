@@ -1,15 +1,15 @@
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
-/Users/koji_koji/.rbenv/versions/2.6.3/bin/ruby -r ./siteconf20201202-2803-1pir20a.rb extconf.rb
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+/Users/koji_koji/.rbenv/versions/2.6.6/bin/ruby -I /Users/koji_koji/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20201210-78102-420c04.rb extconf.rb
 creating Makefile
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
 make "DESTDIR=" clean
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
 make "DESTDIR="
 compiling websocket_mask.c
 linking shared-object websocket_mask.bundle
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
 make "DESTDIR=" install
-/usr/local/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20201202-2803-fjjwmc
+/usr/local/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20201210-78102-obf12h

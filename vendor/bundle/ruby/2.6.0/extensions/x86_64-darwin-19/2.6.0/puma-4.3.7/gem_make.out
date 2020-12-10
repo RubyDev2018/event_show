@@ -1,5 +1,5 @@
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/puma-4.3.7/ext/puma_http11
-/Users/koji_koji/.rbenv/versions/2.6.3/bin/ruby -r ./siteconf20201202-8017-1hm1xzy.rb extconf.rb
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/puma-4.3.7/ext/puma_http11
+/Users/koji_koji/.rbenv/versions/2.6.6/bin/ruby -I /Users/koji_koji/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20201210-78102-1i0y6d9.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -8,14 +8,10 @@ checking for TLS_server_method() in openssl/ssl.h... yes
 checking for SSL_CTX_set_min_proto_version in openssl/ssl.h... yes
 creating Makefile
 
-To see why this extension failed to compile, please check the mkmf.log which can be found here:
-
-  /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/extensions/x86_64-darwin-19/2.6.0/puma-4.3.7/mkmf.log
-
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/puma-4.3.7/ext/puma_http11
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/puma-4.3.7/ext/puma_http11
 make "DESTDIR=" clean
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/puma-4.3.7/ext/puma_http11
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/puma-4.3.7/ext/puma_http11
 make "DESTDIR="
 compiling http11_parser.c
 ext/puma_http11/http11_parser.c:44:18: warning: unused variable 'puma_parser_en_main' [-Wunused-const-variable]
@@ -34,6 +30,6 @@ void raise_error(SSL* ssl, int result) {
 compiling puma_http11.c
 linking shared-object puma/puma_http11.bundle
 
-current directory: /Users/koji_koji/ruby_book/perfect_ruby/awesome_events/vendor/bundle/ruby/2.6.0/gems/puma-4.3.7/ext/puma_http11
+current directory: /Users/koji_koji/ruby_book/perfect_ruby/event_show/vendor/bundle/ruby/2.6.0/gems/puma-4.3.7/ext/puma_http11
 make "DESTDIR=" install
-/usr/local/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20201202-8017-14wyy4u/puma
+/usr/local/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20201210-78102-10iicpo/puma

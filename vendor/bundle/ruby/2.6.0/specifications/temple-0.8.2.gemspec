@@ -13,25 +13,20 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/judofyr/temple".freeze
   s.licenses = ["MIT".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 1.9.2".freeze)
-  s.rubygems_version = "2.6.3".freeze
+  s.rubygems_version = "3.1.4".freeze
   s.summary = "Template compilation framework in Ruby".freeze
 
-  s.installed_by_version = "2.6.3" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.1.4" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
+  end
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<tilt>.freeze, [">= 0"])
-      s.add_development_dependency(%q<bacon>.freeze, [">= 0"])
-      s.add_development_dependency(%q<rake>.freeze, [">= 0"])
-      s.add_development_dependency(%q<erubis>.freeze, [">= 0"])
-    else
-      s.add_dependency(%q<tilt>.freeze, [">= 0"])
-      s.add_dependency(%q<bacon>.freeze, [">= 0"])
-      s.add_dependency(%q<rake>.freeze, [">= 0"])
-      s.add_dependency(%q<erubis>.freeze, [">= 0"])
-    end
+  if s.respond_to? :add_runtime_dependency then
+    s.add_development_dependency(%q<tilt>.freeze, [">= 0"])
+    s.add_development_dependency(%q<bacon>.freeze, [">= 0"])
+    s.add_development_dependency(%q<rake>.freeze, [">= 0"])
+    s.add_development_dependency(%q<erubis>.freeze, [">= 0"])
   else
     s.add_dependency(%q<tilt>.freeze, [">= 0"])
     s.add_dependency(%q<bacon>.freeze, [">= 0"])
