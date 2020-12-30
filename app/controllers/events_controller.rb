@@ -34,7 +34,6 @@ class EventsController < ApplicationController
     @event.destroy!
     redirect_to root_path, alert: "削除しました。"
   end
-
   
   private
 
